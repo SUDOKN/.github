@@ -16,3 +16,19 @@ Check out [ASU SUDOKN Project](https://projects.engineering.asu.edu/sudokn/)
 Ask a question to Dr Farhad Ameri (farhad.ameri@asu.edu)
 Read about the NSF Sponsored [Proto-OKN](https://www.proto-okn.net/) projects
 
+## Example Queries
+
+### Return the manufacturers who have stamping capability and serve the aerospace industry
+
+```sparql
+PREFIX iof-core: <https://spec.industrialontologies.org/ontology/core/Core/>
+PREFIX sdk: <http://asu.edu/semantics/SUDOKN/>
+
+SELECT ?mfg
+WHERE {
+    ?mfg sdk:hasProcessCapability ?p.
+    ?p a sdk:StampingCapability.
+    ?mfg sdk:suppliesToIndustry ?ind.
+    ?ind a sdk:AerospaceIndustry.
+}
+```
