@@ -1,7 +1,7 @@
 ## What is SUDOKN?
 
 
-SUDOKN is a knowledge graph focused on representing manufacturing capabilities of Small and Medium-Sized Manufacturers (SMM). SUDOKN is part of [NSF Proto-OKN](https://www.proto-okn.net/) initiative. 
+[SUDOKN](https://projects.engineering.asu.edu/sudokn/) is a knowledge graph focused on representing manufacturing capabilities of Small and Medium-Sized Manufacturers (SMM). SUDOKN is part of [NSF Proto-OKN](https://www.proto-okn.net/) initiative. 
 
 In this project, we will prototype and deploy the Supply and Demand Open Knowledge Network (SUDOKN) which is composed of several open and interconnected knowledge graphs, aligned with formal ontologies, that collectively represent various types of supply and demand data needed to address the challenges posed by the use cases related to supplier discovery, capability and capacity analysis, and vulnerability assessment. This project is aimed at democratizing access to publicly available supply and demand data and maximizing its utility by proposing a three-pronged approach:
 
